@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
         <h1 className="text-7xl p-4 mb-6 shadow-lg shadow-[#106ae0] rounded border from-purple-700 via-pink-500 to-blue-500 bg-gradient-to-r bg-clip-text text-transparent">
           Hello World!
         </h1>
+
+        <p className={styles.description}>
+          Here is a <Link href="other">link</Link> to another page
+        </p>
 
         <p className={styles.description}>
           Stuff below is from the the <code>next.js</code> template
