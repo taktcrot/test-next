@@ -10,12 +10,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1 className="text-7xl p-4 mb-6 shadow-lg shadow-[#106ae0] rounded border from-purple-700 via-pink-500 to-blue-500 bg-gradient-to-r bg-clip-text text-transparent">
+          Hello World!
         </h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          Stuff below is from the the <code>next.js</code> template
         </p>
 
         <div className={styles.grid}>
@@ -50,14 +50,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
-        </a>
+        Powered by render.com 😊
       </footer>
 
       <style jsx>{`
